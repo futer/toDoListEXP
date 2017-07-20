@@ -1,102 +1,169 @@
-body
-{
-  background-color: #3c133d;
-  font-size: 62,5;
-  font-family: 'Lato', sans-serif;
+body {
+    background-color: #3c133d;
+    font-size: 62, 5;
+    font-family: 'Lato', sans-serif;
 }
 
-.header
-{
-  width: 900px;
-  margin: 0px auto 20px auto;
-  padding: 20px;
-  background-color: #4d244e;
+.header {
+    width: 900px;
+    margin: 0px auto 20px auto;
+    padding: 20px;
+    background-color: #4d244e;
 }
 
-input
-{
-  float: left;
-  width: 300px;
-  margin: 0px 10px 0px 10px;
-  text-align: center;
-  padding: 5px;
-  background-color: white;
-  outline: 3px dotted #CC99CC;
+input {
+    float: left;
+    width: 300px;
+    margin: 0px 10px 0px 10px;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+    outline: 3px dotted #CC99CC;
 }
 
-input:focus
-{
-  background-color: #FFFF99;
+input:focus {
+    background-color: #FFFF99;
 }
 
-textarea
-{
-  float: left;
-  height: 18px;
-  width: 450px;
-  margin: 0px 10px 0px 10px;
-  padding: 5px;
-  text-align: center;
-  background-color: white;
-  outline: 3px dotted #CC99CC;
+textarea {
+    float: left;
+    height: 18px;
+    width: 450px;
+    margin: 0px 10px 0px 10px;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    outline: 3px dotted #CC99CC;
 }
 
-textarea:focus
-{
-  background-color: #FFFF99;
+textarea:focus {
+    background-color: #FFFF99;
 }
 
-button
-{
-  height: 25px;
-  width:150px;
-  margin: 10px;
-  border: 3px solid #777777;
+button {
+    height: 25px;
+    width: 150px;
+    margin: 10px;
+    border: 3px solid #777777;
 }
 
-h4
-{
-  margin: auto;
-  font-size: 2.0rem;
-  font-size: 20px;
-  text-align: center;
-  background-color: #4d244e;
-  }
-
-.container
-{
-  height: auto;
-  width: 450px;
-  margin: auto;
-  padding: 20px;
-  background-color: #CC99CC;
+h4 {
+    margin: auto;
+    font-size: 2.0rem;
+    font-size: 20px;
+    text-align: center;
+    background-color: #4d244e;
 }
 
-.box h3
-{
-  font-size: 1.7rem;
-  font-size: 17px;
-  text-align: center;
+.container {
+    height: auto;
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    background-color: #CC99CC;
 }
 
-.box
-{
-  margin: auto;
-  font-size: 1.2rem;
-  font-size: 12px;
-  text-align: justify;
-  text-transform: capitalize;
-  outline: 3px dotted #4d244e;
-  }
+.box h3 {
+    font-size: 1.7rem;
+    font-size: 17px;
+    text-align: center;
+}
 
-footer
-{
-  width: 900px;
-  margin: 20px auto 0px auto;
-  padding: 10px;
-  font-size: 1.5rem;
-  font-size: 15px;
-  font-style: italic;
-  text-align: center;
-  background-color: #4d244e;
+.box {
+    margin: auto;
+    font-size: 1.2rem;
+    font-size: 12px;
+    text-align: justify;
+    text-transform: capitalize;
+    outline: 3px dotted #4d244e;
+}
+
+footer {
+    width: 900px;
+    margin: 20px auto 0px auto;
+    padding: 10px;
+    font-size: 1.5rem;
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    background-color: #4d244e;
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    body {
+        background-color: #3c134d;
+    }
+    .header {
+        width: 95%;
+        margin: 0px auto 20px auto;
+        padding: 10px;
+        background-color: #4d244e;
+    }
+    input {
+        width: 90%;
+        margin: 0px 10px 10px 10px;
+        text-align: center;
+        padding: 5px;
+        background-color: white;
+        outline: 3px dotted #CC99CC;
+    }
+    input:focus {
+        background-color: #FFFF99;
+    }
+    textarea {
+        width: 90%;
+        margin: 0px 10px 0px 10px;
+        padding: 5px;
+        text-align: center;
+        background-color: white;
+        outline: 3px dotted #CC99CC;
+    }
+    textarea:focus {
+        background-color: #FFFF99;
+    }
+    button {
+        text-align: center;
+        height: 30px;
+        width: 95%;
+        margin: 10px;
+        border: 3px solid #777777;
+    }
+    h4 {
+        margin: auto;
+        font-size: 2.0rem;
+        font-size: 20px;
+        text-align: center;
+        background-color: #4d244e;
+    }
+    .container {
+        height: auto;
+        width: 80%;
+        margin: auto;
+        padding: 15px;
+        background-color: #CC99CC;
+    }
+    .box h3 {
+        font-size: 1.7rem;
+        font-size: 17px;
+        text-align: center;
+    }
+    .box {
+        margin: 15px 10px 15px 10px;
+        padding: 5px;
+        font-size: 1.2rem;
+        font-size: 12px;
+        text-align: justify;
+        text-transform: capitalize;
+        outline: 3px dotted #4d244e;
+    }
+    footer {
+        width: 100%;
+        margin: 20px auto 0px auto;
+        padding: 10px;
+        font-size: 1.5rem;
+        font-size: 15px;
+        font-style: italic;
+        text-align: center;
+        background-color: #4d244e;
+    }
 }
