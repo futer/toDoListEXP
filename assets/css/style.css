@@ -1,14 +1,16 @@
 body {
-    background-color: #3c133d;
+    background-image: url("img/background.png");
+    background-size: auto;
     font-size: 62, 5;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Acme', sans-serif;
+    color: #808080;
 }
 
 .header {
     width: 900px;
     margin: 0px auto 20px auto;
     padding: 20px;
-    background-color: #4d244e;
+    background-color: rgba(0, 127, 255, 0.4);
 }
 
 input {
@@ -18,11 +20,11 @@ input {
     text-align: center;
     padding: 5px;
     background-color: white;
-    outline: 3px dotted #CC99CC;
+    outline: 3px double #0055BB;
 }
 
 input:focus {
-    background-color: #FFFF99;
+    background-color: #FFF;
 }
 
 textarea {
@@ -33,18 +35,23 @@ textarea {
     padding: 5px;
     text-align: center;
     background-color: white;
-    outline: 3px dotted #CC99CC;
+    outline: 3px double #0055BB;
 }
 
 textarea:focus {
-    background-color: #FFFF99;
+    background-color: #FFF;
 }
 
 button {
     height: 25px;
     width: 150px;
     margin: 10px;
-    border: 3px solid #777777;
+    border: 2px solid #0055BB;
+    background-color: rgba(128, 128, 128, 0.4);
+  }
+
+button:hover {
+  background-color: #0055BB;
 }
 
 h4 {
@@ -52,15 +59,16 @@ h4 {
     font-size: 2.0rem;
     font-size: 20px;
     text-align: center;
-    background-color: #4d244e;
+    background-color: rgba(128, 128, 128, 0.4);
+    color: #FFF;
 }
 
 .container {
     height: auto;
-    width: 450px;
+    width: 600px;
     margin: auto;
     padding: 20px;
-    background-color: #CC99CC;
+    background-color: rgba(0, 127, 255, 0.4);
 }
 
 .box h3 {
@@ -73,9 +81,11 @@ h4 {
     margin: auto;
     font-size: 1.2rem;
     font-size: 12px;
-    text-align: justify;
+    text-align: center;
     text-transform: capitalize;
-    outline: 3px dotted #4d244e;
+    border-left-style: double;
+    border-bottom-style: double;
+    border-color: #0055BB;
 }
 
 footer {
@@ -84,20 +94,20 @@ footer {
     padding: 10px;
     font-size: 1.5rem;
     font-size: 15px;
-    font-style: italic;
     text-align: center;
-    background-color: #4d244e;
+    background-color: rgba(0, 127, 255, 0.4);
+    font-family: 'Pacifico';
 }
 
 @media screen and (min-width:320px) and (max-width:480px) {
     body {
-        background-color: #3c134d;
+        background-color: #0066CC;
     }
     .header {
         width: 95%;
         margin: 0px auto 20px auto;
         padding: 10px;
-        background-color: #4d244e;
+        background-color: rgba(0, 127, 255, 0.4);
     }
     input {
         width: 90%;
@@ -105,10 +115,10 @@ footer {
         text-align: center;
         padding: 5px;
         background-color: white;
-        outline: 3px dotted #CC99CC;
+        outline: 3px double #0055BB;
     }
     input:focus {
-        background-color: #FFFF99;
+        background-color: #FFF;
     }
     textarea {
         width: 90%;
@@ -116,10 +126,10 @@ footer {
         padding: 5px;
         text-align: center;
         background-color: white;
-        outline: 3px dotted #CC99CC;
+        outline: 3px double #0055BB;
     }
     textarea:focus {
-        background-color: #FFFF99;
+        background-color: #FFF;
     }
     button {
         text-align: center;
@@ -127,20 +137,22 @@ footer {
         width: 95%;
         margin: 10px;
         border: 3px solid #777777;
+        background-color: rgba(128, 128, 128, 0.4);
     }
     h4 {
         margin: auto;
         font-size: 2.0rem;
         font-size: 20px;
         text-align: center;
-        background-color: #4d244e;
+        background-color: rgba(128, 128, 128, 0.4);
+        color: #FFF;
     }
     .container {
         height: auto;
         width: 80%;
         margin: auto;
         padding: 15px;
-        background-color: #CC99CC;
+        background-color: rgba(0, 127, 255, 0.4);
     }
     .box h3 {
         font-size: 1.7rem;
@@ -152,9 +164,12 @@ footer {
         padding: 5px;
         font-size: 1.2rem;
         font-size: 12px;
-        text-align: justify;
+        text-align: center;
         text-transform: capitalize;
-        outline: 3px dotted #4d244e;
+        border-left-style: double;
+        border-bottom-style: double;
+        border-color: #0055BB;
+       
     }
     footer {
         width: 100%;
@@ -162,8 +177,8 @@ footer {
         padding: 10px;
         font-size: 1.5rem;
         font-size: 15px;
-        font-style: italic;
         text-align: center;
-        background-color: #4d244e;
+        background-color: rgba(0, 127, 255, 0.4);
+        font-family: 'Pacifico';
     }
 }
