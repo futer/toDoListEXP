@@ -89,7 +89,11 @@ h4 {
 }
 
 footer {
-    width: 900px;
+    position: fixed;
+    left:0px;
+    bottom: 0px;
+    height: 30px;
+    width: 100%;
     margin: 20px auto 0px auto;
     padding: 10px;
     font-size: 1.5rem;
