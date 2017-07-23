@@ -1,7 +1,19 @@
+* { margin: 0; padding: 0; }
+
+@font-face{
+    font-family: 'Acme';
+    src: url('fonts/Acme.ttf');
+}
+
+@font-face{
+    font-family: 'Pacifico';
+    src: url('fonts/Pacifico.ttf');
+}
+
 body {
     background-image: url("img/background.png");
     background-size: auto;
-    font-size: 62, 5;
+    font-size: 62.5px;
     font-family: 'Acme', sans-serif;
     color: #808080;
 }
@@ -57,7 +69,6 @@ button:hover {
 h4 {
     margin: auto;
     font-size: 2.0rem;
-    font-size: 20px;
     text-align: center;
     background-color: rgba(128, 128, 128, 0.4);
     color: #FFF;
@@ -67,20 +78,19 @@ h4 {
     height: auto;
     width: 600px;
     margin: auto;
-    padding: 20px;
+    padding: 10px;
     background-color: rgba(0, 127, 255, 0.4);
 }
 
 .box h3 {
     font-size: 1.7rem;
-    font-size: 17px;
     text-align: center;
 }
 
 .box {
-    margin: auto;
+    margin: 10px auto 10px auto;
+    padding: 10px;
     font-size: 1.2rem;
-    font-size: 12px;
     text-align: center;
     text-transform: capitalize;
     border-left-style: double;
@@ -97,7 +107,6 @@ footer {
     margin: 20px auto 0px auto;
     padding: 10px;
     font-size: 1.5rem;
-    font-size: 15px;
     text-align: center;
     background-color: rgba(0, 127, 255, 0.4);
     font-family: 'Pacifico';
