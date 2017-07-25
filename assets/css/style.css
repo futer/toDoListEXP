@@ -114,6 +114,10 @@ button:hover {
 	background-color: #0055BB;
 }
 
+.buttonClass:hover, .buttonClass:focus {
+    background: yellow;
+}
+
 h4 {
 		margin: auto;
 		font-size: 2.0rem;
