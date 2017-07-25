@@ -11,12 +11,13 @@
 }
 
 body {
-		background-image: url("../img/todo.jpeg");
-		background-position: center;
-		background-size: cover;
-		font-size: 62.5px;
-		font-family: 'Roboto', sans-serif;
-		color: #808080;
+	background-image: url("../img/todo.jpeg");
+	background-position: center;
+	background-size: cover;
+	font-size: 62.5px;
+	font-family: 'Roboto', sans-serif;
+	color: #808080;
+	overflow: hidden;
 }
 
 .firstElement, .secondElement {
