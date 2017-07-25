@@ -15,12 +15,21 @@
 
 	<body>
 
-		<header class="header">
-			<form>
+	  <section class="firstElement">
+        <div>
+          <header class="header">
+            <h1>Hello, it's your job manager!</h1>
+          </header>
+          <a href= "#secondElement" class="arrowDown"></a>
+        </div>
+      </section>
+
+	<section class="secondElement" id="secondElement">
+		<header class="header2">
+			<form style>
 				<input name="addTitle" type="text">
 				<textarea type="text" name="text" placeholder="Treść zadania..."></textarea>
-        <div style="clear: both;"></div>
-        <button name="addBox" type="submit">Dodaj</button>
+		        <button name="addBox" type="submit">Dodaj</button>
 			</form>
 		</header>
 
@@ -47,6 +56,7 @@
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras fermentum elit a odio sollicitudin, quis commodo nibh porttitor.
 			</div>
 		</div>
+		</section>
 
 		<footer>
 			Wszelkie prawa zastrzeżone &copy
