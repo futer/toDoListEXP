@@ -36,17 +36,32 @@ body {
 
 .arrowDown {
   display: block;
-  margin: 50px auto;
+  margin: 30px auto;
   width: 0;
   height: 0;
   content: '';
-  border-left: 40px solid transparent;
-  border-right: 40px solid transparent;
-  border-top: 40px solid rgba(0, 127, 255, 0.4);
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-top: 80px solid rgba(0, 127, 255, 0.4);
 }
 
 .arrowDown:hover {
-  border-top: 40px solid #FFF;
+  border-top: 80px solid #FFF;
+}
+
+.arrowUp {
+  display: block;
+  margin: 30px auto;
+  width: 0;
+  height: 0;
+  content: '';
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-bottom: 80px solid rgba(0, 127, 255, 0.4);
+}
+
+.arrowUp:hover {
+	border-bottom: 80px solid #FFF;
 }
 
 .header {
