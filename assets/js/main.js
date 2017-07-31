@@ -1,5 +1,9 @@
-var nameInput = document.getElementById('addTask');
-document.querySelector('form.addTaskForm').addEventListener('submit', function (e) {
-		e.preventDefault();
-    console.log(nameInput.value);    
+let taskTitle = document.getElementById('taskTitle');
+let taskContent = document.getElementById('taskContent');
+
+let addTask = document.querySelector('.addTaskBtn');
+
+addTask.addEventListener('click', (event) => {
+  event.preventDefault();
+  console.log(taskTitle.value, taskContent.value);
 });
