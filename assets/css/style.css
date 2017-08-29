@@ -16,8 +16,9 @@ body {
 	background-size: cover;
 	font-size: 62.5px;
 	font-family: 'Roboto', sans-serif;
-	color: #808080;
+	color: #666666;
 	overflow: hidden;
+	
 }
 
 .firstElement, .secondElement {
@@ -28,10 +29,11 @@ body {
 }
 
 .welcomeTitle {
-	color: rgba(0, 127, 255, 0.4);
+	color: #FFF;
 	padding: 240px 0 ;
 	text-align: center;
 	text-transform: uppercase;
+	opacity: 0.8;
 }
 
 .arrowDown {
@@ -40,13 +42,13 @@ body {
   width: 0;
   height: 0;
   content: '';
-  border-left: 80px solid transparent;
-  border-right: 80px solid transparent;
-  border-top: 80px solid rgba(0, 127, 255, 0.4);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 50px solid rgba(0, 127, 255, 0.4);
 }
 
 .arrowDown:hover {
-  border-top: 80px solid #FFF;
+  border-top: 50px solid #FFF;
 }
 
 .arrowUp {
@@ -103,15 +105,22 @@ body {
 .taskContent:focus {
 	background-color: #FFF;
 }
-
+#datepicker{
+	width: 20%;
+	height: 26%;
+	float: right;
+	margin: 10px 266px 0px 0px;
+	
+}
 .addTaskBtn {
-	height: 25px;
-	width: 150px;
+	height: 30%;
+	width: 180px;
 	border: 2px solid #0055BB;
 	background-color: rgba(128, 128, 128, 0.4);
-	margin-top: -20px;
+	margin-top: 10px;
 	float: left;
-	margin-top: 20px;
+	
+	
 }
 
 .addTaskBtn:hover {
@@ -170,86 +179,52 @@ body {
 	font-family: 'Pacifico';
 }
 
-@media screen and (min-width:320px) and (max-width:480px) {
+@media screen and (min-width:320px) and (max-width: 768px) {
 		body {
-				background-color: #0066CC;
+				width: 90%;
 		}
-		.header {
-				width: 95%;
-				margin: 0px auto 20px auto;
+		.welcome {
+				width: 90%;
+				margin: -80px 44px;
 				padding: 10px;
-				background-color: rgba(0, 127, 255, 0.4);
+				
 		}
-		input {
+			.addTaskForm{
 				width: 90%;
-				margin: 0px 10px 10px 10px;
-				text-align: center;
-				padding: 5px;
-				background-color: white;
-				outline: 3px double #0055BB;
+			}
+			#taskTitle{
+				width: 30%;
+				float: left;
+				
 		}
-		input:focus {
-				background-color: #FFF;
+			#taskContent{
+				width: 65%;
+				float: right;
+				
 		}
-		textarea {
-				width: 90%;
-				margin: 0px 10px 0px 10px;
-				padding: 5px;
-				text-align: center;
-				background-color: white;
-				outline: 3px double #0055BB;
+			#datepicker{
+				width: 20%;
+				height: 26%;
+				float: right;
+				margin: 1% 44.6%; 
 		}
-		textarea:focus {
-				background-color: #FFF;
-		}
-		button {
-				text-align: center;
-				height: 30px;
-				width: 95%;
-				margin: 10px;
-				border: 3px solid #777777;
-				background-color: rgba(128, 128, 128, 0.4);
-		}
-
-		h4 {
-				margin: auto;
-				font-size: 2.0rem;
-				text-align: center;
-				background-color: rgba(128, 128, 128, 0.4);
-				color: #FFF;
+			.addTaskBtn{
+				width: 30%;
+				height: 30%;
+				margin-top: -4.5%;
+				float: left;
+				
 		}
 		.container {
-				height: auto;
-				width: 80%;
-				margin: auto;
-				padding: 15px;
-				background-color: rgba(0, 127, 255, 0.4);
-		}
-		.box h3 {
-				font-size: 1.7rem;
-				font-size: 17px;
-				text-align: center;
-		}
-		.box {
-				margin: 15px 10px 15px 10px;
-				padding: 5px;
-				font-size: 1.2rem;
-				font-size: 12px;
-				text-align: center;
-				text-transform: capitalize;
-				border-left-style: double;
-				border-bottom-style: double;
-				border-color: #0055BB;
+				width: 90%;
 
 		}
+		.arrowUp {
+				margin: 20px 240px;
+				padding: 1px;		
+		}
+	
 		footer {
-				width: 100%;
-				margin: 20px auto 0px auto;
-				padding: 10px;
-				font-size: 1.5rem;
-				font-size: 15px;
-				text-align: center;
-				background-color: rgba(0, 127, 255, 0.4);
-				font-family: 'Pacifico';
+				width: 100%;		
 		}
 }

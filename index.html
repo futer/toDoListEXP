@@ -8,7 +8,14 @@
 		<meta name="viewport" content="width=device-width">
 		<title>ToDoList</title>
 		<link rel="stylesheet" href="assets/css/style.css" type="text/css">
+		<link rel="stylesheet" href="assets/css/pikaday.css" type="text/css">
 		<link rel="shortcut icon" href="favicon.ico"/>
+		
+			
+	
+        
+<!-- -->
+
   </head>
 	<body>
 	  <section class="firstElement" id="firstElement">
@@ -20,10 +27,10 @@
 
 		<section class="secondElement" id="secondElement">
 			<form class="addTaskForm">
-			  <input id="taskTitle" name="addTitle" type="text" class="taskName">
+			  <input id="taskTitle" name="addTitle" type="text" class="taskName" />
 			  <textarea id="taskContent" type="text" name="text" class="taskContent" placeholder="Treść zadania..." ></textarea>
-
-			  <button name="addBox" class="addTaskBtn" type="submit">Dodaj</button>
+				<input id="datepicker" type="text" name="date"   />	
+			  <button name="addBox" class="addTaskBtn" type="submit">Dodaj</button>	
 			</form>
 
 			<div id="taskList" class="container">
@@ -44,5 +51,17 @@
 		</footer>
 
 		<script type="text/javascript" src="assets/js/main.js"></script>
+		<script src="assets/js/moment.js"></script>
+		<script src="assets/js/pikaday.js"></script>
+		<script>
+		var picker = new Pikaday({
+        field: document.getElementById('datepicker'),
+        format: 'D MMM YYYY',
+        onSelect: function() {
+            console.log(this.getMoment().format('Do MMMM YYYY'));
+        }
+    });
+		</script>
+	
 	</body>
 </html>
